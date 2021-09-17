@@ -13,8 +13,8 @@
     </head>
     <body>
         <div id="root">
-            <img :src="logo">
-            <h1>{{happyDay}}</h1>
+            <img :src="logo" @click="cambioSlide">
+            <h1 @click="cambioSlide">{{happyDay}}</h1>
         </div>
 
         <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
